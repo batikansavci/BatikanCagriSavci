@@ -1,5 +1,5 @@
 function changeImage(img) {
-    document.getElementById("changeImg").src = img.src.replace("_1", "_0");
+    document.getElementById("changeImg").src = img.src.replace("_0", "_1");
 }
 $('#cv_print').click(
     function () {
