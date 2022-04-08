@@ -1,6 +1,6 @@
 $('#changeImg').click(
     function () {
-            document.getElementById("changeImg").src = "ProfilePhoto_0.jpeg";  
+            document.getElementById("changeImg").src = "ProfilePhoto_1.jpeg";  
     }
 );
 
