@@ -1221,63 +1221,6 @@
                     font-size: 0.9em;
                 }
             </style>
-
-
-            <div id="badge">
-                <div class="promo-badge">
-                    <div class="pb-loading-container" style="display: none;">
-                        <div class="lds-ring">
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                        </div>
-                    </div>
-                    <div class="pb-main-container" style="display: flex;">
-                        <img style="display: inline-block;" src="data:image/gif;base64,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">
-                        <div class="pb-text-container">
-                            <div class="pb-h1" style="display:flex;justify-content:space-between;">
-                                <span>Download OurList for Free!</span>
-                                <div>
-                                    <svg class="pb-ios" id="Layer_1" style="display: inline-block;" version="1.1" viewBox="0 0 2038 2500" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
-<path class="st0" d="M1124.5,217.6C1288.7,1.1,1517.1,0.1,1517.1,0.1s34,203.5-129.2,399.6c-174.2,209.4-372.3,175.1-372.3,175.1
-	S978.4,410.1,1124.5,217.6z M1036.5,717.3c84.5,0,241.3-116.2,445.5-116.2c351.4,0,489.6,250,489.6,250s-270.4,138.2-270.4,473.6
-	c0,378.4,336.8,508.8,336.8,508.8s-235.4,662.7-553.4,662.7c-146.1,0-259.6-98.4-413.5-98.4c-156.8,0-312.5,102.1-413.8,102.1
-	C366.9,2500,0,1871.4,0,1366.1c0-497.1,310.5-757.9,601.8-757.9C791.1,608.2,938,717.3,1036.5,717.3L1036.5,717.3z"></path>
-</svg>
-                                    <svg class="pb-android" id="Layer_1" style="display: inline-block;" version="1.1" viewBox="0 0 2232 2500" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
-<style type="text/css">
-    .st1 {
-        fill: none;
-        stroke-width: 32.8724;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-miterlimit: 43.8299;
-    }
-</style>
-                                    <path class="st0" d="M764,1518.5c86.2,0,156,69.9,156,156V2344c0,86.2-69.9,156-156,156c-86.2,0-156-69.9-156-156v-669.4
-				C608,1588.4,677.8,1518.5,764,1518.5L764,1518.5z"></path>
-                                    <path class="st0" d="M407.8,713.7c-0.5,5.9-1,11.9-1,17.9v1014.2c0,109.1,86.3,196.9,193.5,196.9h1031.4
-				c107.2,0,193.5-87.9,193.5-196.9V731.7c0-6-0.2-12.1-0.7-17.9L407.8,713.7L407.8,713.7z"></path>
-                                    <path class="st0" d="M1468,1518.5c86.2,0,156,69.9,156,156V2344c0,86.2-69.9,156-156,156c-86.2,0-156-69.9-156-156v-669.4
-				C1312,1588.4,1381.8,1518.5,1468,1518.5L1468,1518.5z M156.1,804c86.2,0,156,69.9,156,156v669.4c0,86.2-69.9,156-156,156
-				c-86.2,0-156-69.9-156-156V960C0,873.9,69.9,804,156.1,804L156.1,804z M2075.9,804c86.2,0,156,69.9,156,156v669.4
-				c0,86.2-69.9,156-156,156c-86.2,0-156-69.9-156-156V960C1919.9,873.9,1989.8,804,2075.9,804L2075.9,804z M412.3,647.1
-				c4.3-311.5,276.2-566.9,625.3-600.6h156.8c349,33.7,620.9,289.1,625.3,600.6H412.3z"></path>
-                                    <path class="st1" d="M466.6,16.4l164.6,285.1 M1765.4,16.4l-164.6,285.1"></path>
-                                    <path class="st0" d="M906.4,367.9c0.1,43.5-35.9,78.9-80.5,79.1c-44.6,0.1-80.8-35.1-81-78.6v-0.4c-0.1-43.6,35.9-78.9,80.5-79.1
-				c44.6-0.1,80.8,35.1,81,78.6V367.9z M1509,367.9c0.1,43.5-35.9,78.9-80.5,79.1c-44.6,0.1-80.8-35.1-81-78.6v-0.4
-				c-0.1-43.6,35.9-78.9,80.5-79.1c44.6-0.1,80.8,35.1,81,78.6V367.9z"></path>
-</svg>
-                                </div>
-                            </div>
-                            <div class="pb-h2">Beautiful shared shopping lists for families</div>
-                            <div class="pb-by">
-                                <a href="https://flycricket.com/sponsorships.html?utm_source=flycricket&amp;utm_medium=index_sponsor" target="_blank">ADS BY FLYCRICKET</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <script type="text/javascript">
 
         const _fc_stage = window.location.href.startsWith('file://') || window.location.href.startsWith('http://') ? "local" : "prod";
@@ -1361,13 +1304,9 @@
                     <div id="attribution">
                         <p>
                             Document hosted by
-                            <a href="https://www.flycricket.com">Flycricket</a>
+                            <a href="">Bcs Company</a>
                             •
-                            <a href="https://flycricket.com/privacy.html">Privacy Policy</a>
-                            •
-                            <a href="https://flycricket.com/cookie_policy.html">Cookie Policy</a>
-                            •
-                            <a href="https://flycricket.com/terms.html">Terms of Use</a>
+                            <a href="">Privacy Policy</a>
                         </p>
                     </div>
 
